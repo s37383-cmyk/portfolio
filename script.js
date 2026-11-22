@@ -3,7 +3,7 @@ const bio = document.querySelector("#bio");
 
 if (factButton && bio) {
   factButton.addEventListener("click", function () {
-    bio.textContent = "Ta treść została zmieniona przez JavaScript.";
+    bio.textContent = "Poza informatyką lubię aktywność na świeżym powietrzu.";
     factButton.textContent = "Gotowe!";
   });
 }

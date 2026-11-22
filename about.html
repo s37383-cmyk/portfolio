@@ -1,8 +1,38 @@
-<section aria-labelledby="projects-title" class="project-card">
-  <h1 id="projects-title">Projekty</h1>
-  <article>
-    <h2>Moja pierwsza strona</h2>
-    <p>Krótki opis projektu i wykorzystanych technologii.</p>
-    <a href="ADRES_REPOZYTORIUM">Kod źródłowy</a>
-  </article>
-</section>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O mnie | Portfolio Szymona</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <p>Portfolio</p>
+        <nav aria-label="Główna nawigacja">
+            <a href="index.html">Start</a>
+            <a href="about.html" aria-current="page">O mnie</a>
+            <a href="projects.html">Projekty</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>O mnie</h1>
+        <p>Mam na imię Szymon i studiuję informatykę.</p>
+        <section aria-labelledby="interests-title">
+            <h2 id="interests-title">Moje zainteresowania</h2>
+            <p>Interesuję się automatyzacją i sprzętem komputerowym.
+                Poza informatyką lubię aktywność na świeżym powietrzu.</p>
+        </section>
+        <section aria-labelledby="learning-title">
+            <h2 id="learning-title">Czego chcę się nauczyć?</h2>
+            <p>Chcę poznawać nowe technologie i uczyć się, jak wykorzystywać je w praktyce.
+                Obecnie poznaję podstawy HTML, CSS i JavaScript, tworząc to portfolio.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Portfolio wykonane podczas Warsztatu Programisty.</p>
+    </footer>
+</body>
+</html>
